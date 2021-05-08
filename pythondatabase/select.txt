@@ -1,0 +1,10 @@
+select count * from tbname
+select min(age) from persontb
+select max(age) form persontb
+select avg(age) from persontb
+select sum(age) from persontb
+cursorObj.execute('select * from sqlite_master where type="table" AND name="employee"')
+cursorObj.fetchone(row[0])
+assigment
+user db
+register tb-->username, password,dob,gender,question,answer,status(int)
